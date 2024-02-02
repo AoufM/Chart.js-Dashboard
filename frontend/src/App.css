@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+body{
+    background-color: beige;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.main-container h2{
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 400;
+}
+.barChart {
+    margin: auto    ;
+    width: 86%;
+  
+
+}
+
+
+
+.lineChart{
+    width: 86%;
+    margin: auto;
+}
+
+.pieChart{
+    width: 44%;
+    margin: auto;
+}
+
+
+.App h1{
+    margin: 25% 0%;
+}
+
+.loading-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .loading-animation {
+    animation-name: loadingAnimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes loadingAnimation {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+  }
+  
+
+
+
